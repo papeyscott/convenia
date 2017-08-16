@@ -1,6 +1,6 @@
 <?php
 
-	define("DBNAME", "motun");
+	define("DBNAME", "convenia");
 	define("DBUSER", "root");
 	define("DBPASS", "root");
 

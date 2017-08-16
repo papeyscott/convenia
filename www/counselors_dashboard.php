@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Help | Convenia</title>
+<title>Dashboard | Convenia</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/business-casual.css">
@@ -35,10 +35,14 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+                    
+                     <li>
                         <a href="index.php">Home</a>
                     </li>
-                      <li>
+                    <li>
+                        <a href="email.php">check mail</a>
+                    </li>
+                    <li>
                         <a href="chat.php">Chat</a>
                     </li>
                      <li>
@@ -47,12 +51,7 @@
                      <li>
                         <a href="register.php">Register</a>
                     </li>
-                    <li>
-                        <a href="FAQs.php">FAQs</a>
-                    </li>
-                    <li>
-                        <a href="contact.php">Contact</a>
-                    </li>
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -60,10 +59,3 @@
         <!-- /.container -->
     </nav>
 
-
-
-
-<?php
-include 'includes/footer.php';
-
-?>
